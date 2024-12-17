@@ -26,8 +26,8 @@ export class APIClientService {
   };
 
   listaPublicaciones: BehaviorSubject<Publicacion[]> = new BehaviorSubject<Publicacion[]>([]);
-  apiUrl = 'http://localhost:3000'; // Url al usar en navegador Web
-  //apiUrl = 'http://192.168.1.87:8101'; // Url al usar en mi celular en mi WIFI, tu puedes tener otra IP
+  apiUrl = 'http://localhost:3000'; // 
+  //apiUrl = 'http://192.168.1.87:8101'; // 
   
   constructor(private http: HttpClient) { }
 
